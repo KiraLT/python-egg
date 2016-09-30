@@ -46,11 +46,11 @@ Python egg has a great [Unit tests](https://docs.python.org/2/library/unittest.h
 
 ### Runnning tests
 
-With bash script:
+**With bash script:**
 
 `./test.sh`
 
-Manually:
+**Manually:**
 
 `python setup.py test`
 
@@ -58,20 +58,20 @@ Manually:
 
 You can install your egg localy in developer mode. Then you will be able to frequently edit your code and not have to re-install your package to run it.
 
-Installation required virtualenv:
+**Installation required virtualenv:**
 
 `pip install virtualenv`
 
-With bash script:
+**With bash script:**
 
 `./install.sh`
 
-Manually:
+**Manually:**
 
 `virtualenv -p python`
 `bin/python setup.py develop`
 
-Not you can use bin scripts from `entry_points`:
+**Not you can use bin scripts from `entry_points`:**
 
 `bin/myapp`
 
