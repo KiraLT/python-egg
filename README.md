@@ -1,7 +1,6 @@
 # python-egg
 Python base egg with developer environment
 
----
 
 ## setup.py
 
@@ -38,8 +37,6 @@ setup(
 
 **test_suite** - run tests from tests package
 
----
-
 ## Tests
 
 Python egg has a great [Unit tests](https://docs.python.org/2/library/unittest.html) support. It will automaticaly find and run tests from `tests` package.
@@ -58,7 +55,7 @@ Python egg has a great [Unit tests](https://docs.python.org/2/library/unittest.h
 
 You can install your egg localy in developer mode. Then you will be able to frequently edit your code and not have to re-install your package to run it.
 
-**Installation requiries virtualenv (virtualenv is a tool to create isolated Python environments.):**
+**Installation requiries virtualenv (virtualenv is a tool to create isolated Python environments):**
 
 `pip install virtualenv`
 
