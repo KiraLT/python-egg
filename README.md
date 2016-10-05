@@ -38,13 +38,17 @@ setup(
 
 ### Runnning tests
 
-###### ith bash script:
+###### With bash script:
 
-`./test.sh`
+```console
+./test.sh
+```
 
 ###### Manually:
 
-`python setup.py test`
+```console
+python setup.py test
+```
 
 ## Install in develop mode
 
@@ -52,20 +56,28 @@ setup(
 
 **Installation requiries virtualenv (virtualenv is a tool to create isolated Python environments):**
 
-`pip install virtualenv`
+```console
+pip install virtualenv
+```
 
 ###### With bash script:
 
-`./install.sh`
+```console
+./install.sh
+```
 
 ###### Manually:
 
-`virtualenv -p python`
-`bin/python setup.py develop`
+```console
+virtualenv -p python
+bin/python setup.py develop
+```
 
 **Not you can use bin scripts from `entry_points`:**
 
-`bin/myapp`
+```console
+bin/myapp
+```
 
 > 'HELLO WORLD'
 
@@ -75,11 +87,15 @@ setup(
 
 ###### With bash script:
 
-`./build.sh`
+```console
+./build.sh
+```
 
 ###### Manually:
 
-`python setup.py bdist_egg`
+```console
+python setup.py bdist_egg
+```
 
 You fill find you .egg in `dist` directory: `dist/myegg-1.0.0-py2.7.egg`
 
