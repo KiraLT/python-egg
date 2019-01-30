@@ -101,7 +101,7 @@ You fill find you .egg in `dist` directory: `dist/myegg-1.0.0-py2.7.egg`
 
 ## Submit a package to PyPI
 
-[Tutorial](http://peterdowns.com/posts/first-time-with-pypi.html)
+[Tutorial](https://packaging.python.org/tutorials/packaging-projects/)
 
 ## Python 3
 
